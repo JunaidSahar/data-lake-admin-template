@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/color-mode": "^3.3.0",
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@types/node": "^18.17.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
+    "eslint": "^8.46.0",
+    "nuxt": "^3.6.5",
+    "nuxt-icon": "^0.4.2"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
+    "@pinia/nuxt": "^0.4.11",
+    "apexcharts": "^3.41.1",
+    "moment": "^2.29.4",
+    "sweetalert2": "^11.7.20",
+    "vue3-apexcharts": "^1.4.4"
+  }
+}
